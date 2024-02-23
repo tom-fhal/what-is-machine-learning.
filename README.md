@@ -6,7 +6,7 @@ Le Machine Learning utilise des formules et des modèles pour trouver des tendan
 Avant de commencer les projets de Machine Learning, il est important de comprendre ce que c’est et de connaître différentes notions. Ce projet nous invites à faire des recherches sur plusieurs éléments clés du Machine Learning, comme la science des données, différents types d’apprentissage et de classification, la régression, la validation croisée, les données d’entraînement et de test, la corrélation entre deux variables, une fonction de coût, et la descente de gradient.
 
 
-## 1La Science des Données
+## La Science des Données
 La science des données est un domaine interdisciplinaire qui utilise des méthodes, des processus et des systèmes pour extraire des connaissances ou des informations à partir de données. Elle implique des techniques et des théories tirées de plusieurs autres domaines plus larges des mathématiques, de la statistique, de l’informatique et de l’information.
 
 Elle permet d’analyser des données massives pour en extraire des informations utiles, de réaliser des modèles et prédictions. La science des données a pris de l’ampleur avec l’augmentation exponentielle du volume de données numériques disponibles.
@@ -16,7 +16,7 @@ https://www.cress-midipyrenees.org/definition-de-la-science-des-donnees/
 https://www.ibm.com/fr-fr/topics/data-science
 
 
-## 2L’apprentissage automatique
+## L’apprentissage automatique
 
 L’apprentissage automatique est une branche de l’intelligence artificielle qui utilise des données et des algorithmes pour imiter la manière dont les êtres humains apprennent, afin d’améliorer progressivement sa précision. Il s’agit d’un champ d’étude de l’IA qui se fonde sur des approches mathématiques et statistiques pour donner aux ordinateurs la capacité d’« apprendre » à partir de données. En pratique, on apprend en fait une hiérarchie de représentations, souvent les couches cachées de réseaux de neurones artificiels.
 
@@ -37,7 +37,7 @@ https://www.wikiwand.com/fr/Apprentissage_profond
 https://www.cnil.fr/fr/definition/apprentissage-profond-deep-learning
 
 
-## 3L’apprentissage supervisé
+## L’apprentissage supervisé
 L’apprentissage supervisé est une méthode de l’intelligence artificielle qui utilise des données et des algorithmes pour imiter la manière dont les êtres humains apprennent, afin d’améliorer progressivement sa précision. Il s’agit d’un champ d’étude de l’IA qui se fonde sur des approches mathématiques et statistiques pour donner aux ordinateurs la capacité d’« apprendre » à partir de données. En pratique, on apprend en fait une hiérarchie de représentations, souvent les couches cachées de réseaux de neurones artificiels.
 
 L’apprentissage supervisé est également appelé apprentissage automatique supervisé, et se caractérise par l’utilisation de jeux de données étiquetés qui entraînent des algorithmes permettant de classer des données ou de prédire des résultats avec précision. Au fur et à mesure que les données en entrée sont introduites dans le modèle, celui-ci ajuste ses pondérations jusqu’à ce que le modèle soit correctement ajusté.
@@ -45,7 +45,7 @@ L’apprentissage supervisé est également appelé apprentissage automatique su
 https://blent.ai/blog/a/apprentissage-supervise-definition
 https://www.wikiwand.com/fr/Apprentissage_supervis%C3%A9
 
-## 4L'apprentissage non supervisé
+## L'apprentissage non supervisé
 L’apprentissage non supervisé est une méthode d’intelligence artificielle qui utilise des algorithmes pour analyser et regrouper des jeux de données non étiquetés1. Ces algorithmes découvrent des modèles cachés ou des groupements de données sans nécessiter d’intervention humaine1. Sa capacité à découvrir les similitudes et les différences d’informations en fait la solution idéale pour l’analyse d’exploration des données.
 
 Il existe deux principales méthodes d’apprentissage non supervisées:
@@ -57,7 +57,7 @@ https://www.techopedia.com/fr/dictionnaire/apprentissage-non-supervise
 https://www.journaldunet.fr/intelligence-artificielle/guide-de-l-intelligence-artificielle/1501309-apprentissage-non-supervise/
 https://www.ibm.com/fr-fr/topics/unsupervised-learning
 
-## 5 La classification supervisé 
+##  La classification supervisé 
 La classification supervisée est une méthode d’apprentissage automatique qui consiste à attribuer automatiquement une catégorie (ou une classe) à des données dont on ne connaît pas la catégorie. Pour ce faire, un classifieur (algorithme de machine learning) est entraîné sur des données similaires ou très proches des données que l’on souhaite classer.
 
 Elle est largement utilisée et bien maîtrisée industriellement, permettant de résoudre un large panel de problèmes pratiques de la vie réelle tels que la détection de défaut d’usinage, de fraude, de maladie, le tri automatique de courrier, de document ou encore de vidéo, la reconnaissance d’images (ex : reconnaissance de caractères, plantes, pollens, etc…).
@@ -66,7 +66,7 @@ Références
 https://fr.wikipedia.org/wiki/Classement_automatique
 https://kongakura.fr/article/Classification%20supervis%C3%A9e
 
-## 6 La classification non supervisée
+##  La classification non supervisée
 La classification non supervisée est une méthode d’apprentissage automatique où les données ne sont pas étiquetées. C’est-à-dire que l’algorithme doit découvrir par lui-même les structures sous-jacentes à ces données non étiquetées.
 
 Elle consiste à regrouper des données non étiquetées en fonction de leurs similitudes ou de leurs différences. Les algorithmes de classification non supervisée sont utilisés pour traiter des objets de données bruts et non classés en groupes représentés par des structures ou des modèles dans les informations.
@@ -80,7 +80,7 @@ https://fr.wikipedia.org/wiki/Apprentissage_non_supervis%C3%A9
 https://www.ibm.com/fr-fr/topics/unsupervised-learning
 https://eo.belspo.be/fr/classification-non-supervisee#:~:text=Classification%20non-supervis%C3%A9e%20Dans%20cette%20approche%2C%20on%20laisse%20l%27ordinateur,les%20pixels%20sur%20base%20de%20signatures%20spectrales%20similaires.
 
-## 7 La régression  
+##  La régression  
 La régression en intelligence artificielle est une méthode d’apprentissage supervisé qui permet de prédire une variable continue à partir d’une ou plusieurs autres variables. Par exemple, prédire le prix d’une maison en fonction de sa taille et de son emplacement est un problème de régression.
 
 Il existe plusieurs types de régression, dont la régression linéaire et la régression logistique. La régression linéaire est utilisée lorsque la relation entre les variables d’entrée et la variable de sortie est supposée être linéaire. La régression logistique, en revanche, est utilisée pour prédire une variable de sortie binaire (par exemple, oui/non ou vrai/faux) à partir d’une ou plusieurs variables d’entrée.
